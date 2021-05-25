@@ -14,7 +14,7 @@ as in Conjecture 2.3. in the paper.
 ## Installation instructions
 Clone this repository as follows:
 ```
-git clone https://github.com/zawagner22/cross-entropy-for-combinatorics
+git clone https://github.com/dpaleka/cross-entropy-for-combinatorics
 cd cross-entropy-for-combinatorics
 ```
 
