@@ -1,12 +1,9 @@
 # cross-entropy-for-combinatorics
 Code accompanying the manuscript ["Constructions in combinatorics via neural networks" by A Z
-Wagner] (https://arxiv.org/abs/2104.14516).
+Wagner](https://arxiv.org/abs/2104.14516).
 
 The following code allows you to optimize any score function on the space of graphs with
 a fixed number of vertices.
-
-The conj23_pytorch_with_numba.py file contains the solution to Conjecture 2.3. 
-It demonstrates the use of numba to speed up the calculation of the reward. 
 
 ## Demo
 ![On the left we see a terminal with the function values and adjacency values. 
@@ -29,7 +26,8 @@ on your system, and run
 ```
 
 ## How to use this for a custom score function?
-Replace the `score_graph` method in `score.py` with the function you want to *maximize*.
+Replace the `score_graph` method in `score.py` with the function you want to **maximize**.
+
 Modify the parameters at the top of `optimize.py`, in particular the number of vertices `N`. 
 
 Then run
@@ -42,10 +40,11 @@ If the generated graphs are not improving with regards to your score function,
 there are two straightforward directions to try:
 
 1. Use a more powerful model to parametrize the graph generation.
-   See [You et al., 2018](https://arxiv.org/abs/1802.08773) (it has [code]())
+   See [You et al., 2018](https://arxiv.org/abs/1802.08773) 
+   (it has [code for the Graph RNN](https://github.com/JiaxuanYou/graph-generation))
    or the permutation-equivariant [Li et al., 2018](https://arxiv.org/abs/1803.03324).
 
 2. Change the loss function. There is a variety of [policy
-   gradient algorithsm](https://lilianweng.github.io/lil-log/2018/04/08/policy-gradient-algorithms.html)
+   gradient algorithms](https://lilianweng.github.io/lil-log/2018/04/08/policy-gradient-algorithms.html)
    to choose from.
 
