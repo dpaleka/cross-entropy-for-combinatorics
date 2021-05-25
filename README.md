@@ -21,7 +21,7 @@ cd cross-entropy-for-combinatorics
 Install [conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
 on your system, and run
 ```
-  conda env create --file enviroment.yml 
+  conda env create --file environment.yml 
   conda activate cross-entropy-for-combinatorics
 ```
 
