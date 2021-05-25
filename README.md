@@ -1,6 +1,6 @@
 # cross-entropy-for-combinatorics
-Code accompanying the manuscript "Constructions in combinatorics via neural networks" by A Z Wagner
-https://arxiv.org/abs/2104.14516
+Code accompanying the manuscript ["Constructions in combinatorics via neural networks" by A Z
+Wagner] (https://arxiv.org/abs/2104.14516).
 
 The following code allows you to optimize any score function on the space of graphs with
 a fixed number of vertices.
