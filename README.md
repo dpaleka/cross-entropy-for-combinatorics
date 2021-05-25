@@ -21,8 +21,8 @@ cd cross-entropy-for-combinatorics
 Install [conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
 on your system, and run
 ```
-  conda env create --file environment.yml 
-  conda activate cross-entropy-for-combinatorics
+conda env create --file environment.yml 
+conda activate cross-entropy-for-combinatorics
 ```
 
 ## How to use this for a custom score function?
