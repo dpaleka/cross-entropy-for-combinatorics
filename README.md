@@ -28,7 +28,7 @@ conda activate cross-entropy-for-combinatorics
 ## How to use this for a custom score function?
 Replace the `score_graph` method in `score.py` with the function you want to **maximize**.
 
-For example, to minimize the absolute ratio of the first and the last eigenvalue of the adjacency matrix of a connected graph, run:
+For example, to minimize the absolute ratio of the first and the last eigenvalue of the adjacency matrix of a connected graph, put this in your `score.py` file:
 ```
 def score_graph(adjMatG, edgeListG, Gdeg):
     """
