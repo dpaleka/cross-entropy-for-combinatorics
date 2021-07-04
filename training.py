@@ -5,7 +5,7 @@ from torch.nn import functional as F
 from tqdm import trange, tqdm
 
 def train_network(model, optimizer, train_loader,
-                  num_epochs=16, pbar_update_interval=200, print_logs=False):
+                  num_epochs=1, pbar_update_interval=200, print_logs=False):
     '''
     Updates the model parameters (in place) using the given optimizer object.
     Returns `None`.
